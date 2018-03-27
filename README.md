@@ -17,5 +17,11 @@ Getting Started:
 ---------------
 npm install => to install all dependencies to node_modules
 
+Please Create config/config.js file including your data base and secret configuration as follows:
+``` module.exports = {
+  database: 'your data base config',
+  secret: 'your secret config'
+};```
+
 npm start => to start the server and listen on port 3000
 ___________________________________________________________________________________

@@ -17,7 +17,14 @@ Getting Started:
 ---------------
 npm install => to install all dependencies to node_modules
 
-N.B : Please Create config/config.js file including your data base and secret configuration.
+N.B : Please Create config/config.js file including your data base and secret configuration as the following:
+```
+module.exports = {
+  database: 'mongodb://<username>:<password>@ds213259.mlab.com:13259/<databasename>',
+  secret: 'yoursecret'
+};
+```
+
 
 npm start => to start the server and listen on port 3000
 
